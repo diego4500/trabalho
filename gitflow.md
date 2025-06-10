@@ -59,6 +59,10 @@ Perceba que esse arquivo que criamos index.html está na branch develope. Ao dar
 
 ![image](https://github.com/user-attachments/assets/5c6a6fee-0105-428b-99e6-a426debf649d)
 
+Com o checkout develope o index.html é exibido de volta
+![image](https://github.com/user-attachments/assets/4c02795a-065c-4778-8e8c-f5c4275d79cd)
+
+
 Ao dar o comando "git banch" é exibida todas as banchs criadas
 ![{62C4F699-2124-40B9-8610-2558F818F8A9}](https://github.com/user-attachments/assets/c41cbb6c-8da6-43d6-96dd-82c5f86fa5a3)
 
