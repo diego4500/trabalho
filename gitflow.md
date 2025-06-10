@@ -24,7 +24,7 @@ main / master - ramo da produção
    
     git flow init
    
-    ```
+ 
    
 
 ![{893DCCF6-1957-4739-B309-59FA53B2BC0C}](https://github.com/user-attachments/assets/6478dafe-f240-465c-b553-f290146fb0fa)
