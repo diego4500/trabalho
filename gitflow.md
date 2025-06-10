@@ -22,8 +22,9 @@ main / master - ramo da produção
 
 ---
    
-git clone https://github.com/diego4500/ufmg_processamento_linguagem_natural/
-   cd nome-do-repositorio
+    ```bash
+   git flow init
+    ```
    
 
 ![{893DCCF6-1957-4739-B309-59FA53B2BC0C}](https://github.com/user-attachments/assets/6478dafe-f240-465c-b553-f290146fb0fa)
