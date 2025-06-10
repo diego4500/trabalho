@@ -49,8 +49,11 @@ já estou na develop. O "git add ." coloca tudo que é novo na área de stage, o
     git status
     git add .
 --- 
-![{6457753A-5A86-43BE-A954-EC768018302E}](https://github.com/user-attachments/assets/7e6e56a8-a570-4fc8-8374-c1d2ee016afa)
 
+![{52ADB603-FC50-4352-8D84-6B8543F2A147}](https://github.com/user-attachments/assets/83c9888f-0b52-44d7-b859-748825df1725)
+
+Em seguida foi dado o commit na develop
+![{AAE8850E-2388-41E6-B81C-998C98763A6C}](https://github.com/user-attachments/assets/d459ea81-0d9d-4c01-a930-3a9235d5df7e)
 
 
 
