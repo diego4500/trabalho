@@ -34,8 +34,9 @@ Comando para abrir o VS Code:
 
 
 ![{2DDE8478-5EF2-4C09-B282-C9FCA1B703B6}](https://github.com/user-attachments/assets/5b8038f5-6912-4d4d-b0f7-72d104acd87d)
+### Criou-se a branch main ou master - Aqui está o projeto em produção
 
-Criou-se a branch main ou master - Aqui está o projeto em produção
+
 ---   
     git flow init
 ---  
