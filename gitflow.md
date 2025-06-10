@@ -22,8 +22,8 @@ main / master - ramo da produção
 
 ---
    
-    ```bash
-   git flow init
+    git flow init
+   
     ```
    
 
