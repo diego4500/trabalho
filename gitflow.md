@@ -19,12 +19,12 @@ develop - ramo de desenvolvimento
 main / master - ramo da produção
 
 ### Simulando o Git Flow
-1 - Primeiramente crie um repositório no git hub
-2 - selecione com REDME.MD e é criado a main
-3 - Em seguida copie o https link do git bash e cole do lado do:
 ---   
     git clone https://github.com/diego4500/git-flow.git
 ---  
+1 - Primeiramente crie um repositório no git hub
+2 - selecione com REDME.MD e é criado a main
+3 - Em seguida copie o https link do git bash e cole do lado do:
 
 ![{2DDE8478-5EF2-4C09-B282-C9FCA1B703B6}](https://github.com/user-attachments/assets/5b8038f5-6912-4d4d-b0f7-72d104acd87d)
 
