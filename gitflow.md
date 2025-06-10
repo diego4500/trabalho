@@ -9,7 +9,7 @@
 * Release - lançamentos
 * Spike
   <br>
-![image](https://github.com/user-attachments/assets/9a7308e4-1518-4d5c-87d1-95e4d3c2d532)
+
 
 Git Flow são comandos padronizados (quando instala a extensão) para criar, finalizar e gerenciar branches.
 feature - novas funcionalidades
