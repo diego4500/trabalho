@@ -18,13 +18,20 @@ hotfix - correção rápidas de bug em produção
 develop - ramo de desenvolvimento
 main / master - ramo da produção
 
+### Simulando o Git Flow
+1 - Primeiramente crie um repositório no git hub
+2 - selecione com REDME.MD e é criado a main
+3 - Em seguida copie o https link do git bash e cole do lado do:
+---   
+    git clone https://github.com/diego4500/git-flow.git
+---  
+
 ![{2DDE8478-5EF2-4C09-B282-C9FCA1B703B6}](https://github.com/user-attachments/assets/5b8038f5-6912-4d4d-b0f7-72d104acd87d)
 
-Criou-se a branch main ou master
+Criou-se a branch main ou master - Aqui está o projeto em produção
 ---   
     git flow init
----
-   
+---  
 
 ![{893DCCF6-1957-4739-B309-59FA53B2BC0C}](https://github.com/user-attachments/assets/6478dafe-f240-465c-b553-f290146fb0fa)
 
