@@ -20,11 +20,10 @@ main / master - ramo da produção
 
 ![{2DDE8478-5EF2-4C09-B282-C9FCA1B703B6}](https://github.com/user-attachments/assets/5b8038f5-6912-4d4d-b0f7-72d104acd87d)
 
----
-   
+Criou-se a branch main ou master
+---   
     git flow init
-   
- 
+---
    
 
 ![{893DCCF6-1957-4739-B309-59FA53B2BC0C}](https://github.com/user-attachments/assets/6478dafe-f240-465c-b553-f290146fb0fa)
