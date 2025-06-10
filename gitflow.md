@@ -32,8 +32,6 @@ Comando para abrir o VS Code:
     code .
 --- 
 
-
-![{2DDE8478-5EF2-4C09-B282-C9FCA1B703B6}](https://github.com/user-attachments/assets/5b8038f5-6912-4d4d-b0f7-72d104acd87d)
 ### Criou-se a branch main ou master - Aqui está o projeto em produção
 
 
@@ -43,7 +41,8 @@ Comando para abrir o VS Code:
 ![{63885343-388E-4D26-B0F9-23C4F6372B3B}](https://github.com/user-attachments/assets/16c0a32d-8b18-425c-8530-341ff714a9c9)
 
 
-![{893DCCF6-1957-4739-B309-59FA53B2BC0C}](https://github.com/user-attachments/assets/6478dafe-f240-465c-b553-f290146fb0fa)
+![{A4243CF5-C3A6-48FA-8C99-3DC5BB2F9FF7}](https://github.com/user-attachments/assets/927d1197-74c6-4e5e-8a37-3d2328fdb85d)
+
 
 
 
