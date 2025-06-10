@@ -43,12 +43,14 @@ Comando para abrir o VS Code:
 ![{4AE5FF0D-0B23-4B35-AA80-1514827A4F0D}](https://github.com/user-attachments/assets/3f387272-b563-41b0-afee-8178a129b25e)
 
 Criei um arquivo html, ao dar o comando "git status" já me mostra que possui arquivo ou pasta para ser commitado. Outro detalhe é que 
-já estou na develop.
+já estou na develop. O "git add ." coloca tudo que é novo na área de stage, ou seja, esperando commit. 
 
 ---   
     git status
+    git add .
 --- 
-![{F3537A8A-4C5E-408E-A785-48299E247A30}](https://github.com/user-attachments/assets/47c84824-7b2e-4d06-984e-f54e59505dae)
+![{6457753A-5A86-43BE-A954-EC768018302E}](https://github.com/user-attachments/assets/7e6e56a8-a570-4fc8-8374-c1d2ee016afa)
+
 
 
 
