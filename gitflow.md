@@ -41,6 +41,11 @@ Comando para abrir o VS Code:
 
 ![{A4243CF5-C3A6-48FA-8C99-3DC5BB2F9FF7}](https://github.com/user-attachments/assets/927d1197-74c6-4e5e-8a37-3d2328fdb85d)
 ![{4AE5FF0D-0B23-4B35-AA80-1514827A4F0D}](https://github.com/user-attachments/assets/3f387272-b563-41b0-afee-8178a129b25e)
+---   
+    git status
+--- 
+![{F3537A8A-4C5E-408E-A785-48299E247A30}](https://github.com/user-attachments/assets/47c84824-7b2e-4d06-984e-f54e59505dae)
+
 
 
 
