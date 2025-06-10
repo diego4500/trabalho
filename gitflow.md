@@ -52,8 +52,12 @@ já estou na develop. O "git add ." coloca tudo que é novo na área de stage, o
 
 ![{52ADB603-FC50-4352-8D84-6B8543F2A147}](https://github.com/user-attachments/assets/83c9888f-0b52-44d7-b859-748825df1725) <br>
 
-Em seguida foi dado o commit na develop
+Em seguida foi dado o commit na develop <br>
 ![{AAE8850E-2388-41E6-B81C-998C98763A6C}](https://github.com/user-attachments/assets/d459ea81-0d9d-4c01-a930-3a9235d5df7e)<br>
+
+Perceba que esse arquivo que criamos index.html está na branch develope. Ao dar um "git checkout na main esse arquivo não existe porque ainda não demos um push na main.
+
+![image](https://github.com/user-attachments/assets/5c6a6fee-0105-428b-99e6-a426debf649d)
 
 
 
