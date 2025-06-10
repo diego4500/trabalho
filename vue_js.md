@@ -4,5 +4,10 @@ O Vue JS é um framework em Javascript para construir interfaces. Ele segue uma 
 * Tudo é reativo;
 Principais Características:
 Ele é componente de arquivo único, ou seja, em um único arquivo terá html, css e javascript.
-É possível fazer condições e loops, eventos, etc. 
+É possível fazer condições e loops, eventos, etc.
+
+## Iniciar o projeto
+npm serve
+Local:   http://localhost:8080/
+
 
