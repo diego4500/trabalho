@@ -38,10 +38,10 @@ Comando para abrir o VS Code:
 ---   
     git flow init
 ---  
-![{63885343-388E-4D26-B0F9-23C4F6372B3B}](https://github.com/user-attachments/assets/16c0a32d-8b18-425c-8530-341ff714a9c9)
-
 
 ![{A4243CF5-C3A6-48FA-8C99-3DC5BB2F9FF7}](https://github.com/user-attachments/assets/927d1197-74c6-4e5e-8a37-3d2328fdb85d)
+![{4AE5FF0D-0B23-4B35-AA80-1514827A4F0D}](https://github.com/user-attachments/assets/3f387272-b563-41b0-afee-8178a129b25e)
+
 
 
 
