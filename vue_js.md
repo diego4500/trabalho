@@ -18,8 +18,10 @@ MVC é Model, View e Controller onde envolve o frontend e o backend
 O Vue fica na parte do View.
 
 3) O que é componente?
-O componente no Vue é um bloco de código que encapsula HTML, CSS e JavaScript em um único arquivo, podendo ser importado e exportado para ser reutilizado em qualquer parte da aplicação. Dessa forma, facilita a reutilização de código e mantém um padrão visual e funcional em todo o sistema.
-Cada componente pode representar elementos como botões, cabeçalhos, rodapés, tabelas, modais, entre outros, tornando o desenvolvimento mais organizado, modular e escalável.
+* O componente no Vue é um bloco de código que encapsula HTML, CSS e JavaScript em um único arquivo
+* Pode ser importado e exportado para ser reutilizado em qualquer parte da aplicação.
+* Dessa forma, facilita a reutilização de código e mantém um padrão visual e funcional em todo o sistema.
+* Cada componente pode representar elementos como botões, cabeçalhos, rodapés, tabelas, modais, entre outros, tornando o desenvolvimento mais organizado, modular e escalável.
 
 Exemplo: 
 Salva o arquivo com o nome MeuBotao.vue <br>
