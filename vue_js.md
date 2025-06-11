@@ -25,7 +25,7 @@ Exemplo:
 Salva o arquivo com o nome MeuBotao.vue <br>
 ![{E7C92A88-F4E3-4ECC-8FF9-11467AACE776}](https://github.com/user-attachments/assets/42b7272c-605f-4c4b-9ae9-f9e012d67677)<br>
 No App.vue utilizei esse botão<br>
-![{36A86423-E69B-499C-9F34-E62D2052DFE3}](https://github.com/user-attachments/assets/69193b4b-9f15-49f5-bd5e-e49f95bb90a8)<br>
+![image](https://github.com/user-attachments/assets/bb31af5e-051e-4674-923c-916e244cf404)<br>
 
 
 
