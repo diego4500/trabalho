@@ -36,3 +36,11 @@ Segue abaixo algumas características:
 * Problemas com concorrência real - Por não ser multithread por padrão , pode exigir soluções mais complexas para paralelismo real.
 * Maturidade de bibliotecas - Algumas bibliotecas populares ainda são menos estáveis ou maduras do quem outras linguagens.
 * Gerenciamento de erros assíncronos - Se mal tratado, erros em promises podem passar despercebidos.
+
+## Express
+O Express é um framework minimalista para o Node.js. Ele simplifica o processo de construção de servidores web e APIs com Javascript.
+Abaixo seguem os principais recursos do Express: <br>
+* Rotas intuitivas para definir endpoints HTTP, exmplo de um endpoint: GET /api/usuarios
+* Fácil integração com banco de dados e ferramentas de template
+* Leve e altamente configurável proporcionando alta perfomance
+Caso não use o express e for usar o Node.JS puro é utilizando o módulo nativo http.
