@@ -42,5 +42,14 @@ O Express é um framework minimalista para o Node.js. Ele simplifica o processo 
 Abaixo seguem os principais recursos do Express: <br>
 * Rotas intuitivas para definir endpoints HTTP, exmplo de um endpoint: GET /api/usuarios
 * Fácil integração com banco de dados e ferramentas de template
-* Leve e altamente configurável proporcionando alta perfomance
+* Leve e altamente configurável proporcionando alta perfomance. <br>
+E se queira rodar o Node.JS puro?
 Caso não use o express e for usar o Node.JS puro é utilizando o módulo nativo http.
+
+## Axios
+O Axios é uma biblioteca Javascript amplamente utilizada para fazer requisições HTTP, sendo muito popular principalmente em aplicações frontend como por exemplo o Vue e Node.JS. Abaixo seguem as principais características principais:
+* Suporte a pormises
+* Fácil integração com APIs
+* Possui uma sintaxe simples e intuitiva
+* Suporte automático para JSON
+* Pode ser usado tanto no navegados quanto no Node.JS
