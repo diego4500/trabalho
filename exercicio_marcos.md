@@ -9,7 +9,7 @@ Segue abaixo algumas características:
 * Vasto ecossistema de pacotes via NPM (Package Manager).
 
 ## Aplicações comuns
-* APIs RESTful e GraphQL
+* APIs RESTful  (GET, POST, PUST, DELETE)
 * Aplicações em tempo real
 * Ferramenta linha de comando
 * Backend de sistemas Web
@@ -33,3 +33,6 @@ Segue abaixo algumas características:
 * Problemas com concorrência real - Por não ser multithread por padrão , pode exigir soluções mais complexas para paralelismo real.
 * Maturidade de bibliotecas - Algumas bibliotecas populares ainda são menos estáveis ou maduras do quem outras linguagens.
 * Gerenciamento de erros assíncronos - Se mal tratado, erros em promises podem passar despercebidos.
+
+## Express
+O Express é um framework do Node.js que facilita a criação de servidores e APIs. Ele permite implementar APIs que seguem a arquitetura RESTful.
