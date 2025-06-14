@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Lista de Contatos</title>
+  <style>
+    table {
+      width: 80%;
+      margin: 20px auto;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    h1 {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Lista de Contatos</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Telefone</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody id="tabela-contatos">
+      <!-- Conteúdo preenchido via JavaScript -->
+    </tbody>
+  </table>
+
+  <script>
+    fetch('http://localhost:3000/contatos') //O fetch é usado para fazer a ponte entre o front e o back
+      .then(response => response.json()) // No .then é convertido em json para array e objeto
+      .then(contatos => {
+        const tabela = document.getElementById('tabela-contatos'); // id onde será renderizada a tabela no front
+
+        contatos.forEach(contato => { 
+          const linha = document.createElement('tr');
+          linha.innerHTML = `
+            <td>${contato.nome}</td>
+            <td>${contato.telefone}</td>
+            <td>${contato.email}</td>
+          `;
+          tabela.appendChild(linha);
+        });
+      })
+      .catch(error => {
+        console.error('Erro ao carregar contatos:', error);
+      });
+  </script>
+
+</body>
+</html>
