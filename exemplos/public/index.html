@@ -32,16 +32,20 @@
       background-color: #0056b3;
     }
 
-    pre {
-      text-align: left;
-      background-color: #fff;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      max-width: 800px;
-      margin: 30px auto 0 auto;
-      overflow-x: auto;
-    }
+   
+
+     .axios-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f0f4f8;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    text-align: start;
+  } 
+
+  
   </style>
 </head>
 <body>
@@ -56,7 +60,13 @@
 </a>
 
 
-  <pre id="resultado">Clique em um botão que será encaminhado para uma página utilizando essa tecnologia.</pre>
+ <div class="axios-container">
+  <p>Clique em um botão que será encaminhado para uma página utilizando essa tecnologia.</p>
+  <p>Nos botões "Axios API externa" e "Axios API Interna" são utilizadas as tecnologias Express e o Axios para acessar
+    rotas internas e API externas. 
+  </p>
+
+</div>
 
 </body>
 </html>
