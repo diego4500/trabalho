@@ -57,7 +57,15 @@ Handlebars é um mecanismo de template usado para gerar páginas HTML dinâmicas
 * Suporte a condicionais e loops: Permite inserir lógicas simples diretamento nos templates, tornando-os mais dinâmicos.
 
   Abaixo criei um projeto totalmente com html, css, node.js e handlebars e nenhum javascript no front
+  ![{755ED9D8-FD66-48CA-9A98-8B136513AB46}](https://github.com/user-attachments/assets/3f826409-569f-4cce-92b5-c1cd919c08fd)
+
   ![{DE074C62-1BA7-4D36-B68F-F4AED66FE252}](https://github.com/user-attachments/assets/e0865b97-8bd3-4f7a-951d-58ca2d0501a9)
+  ![{EE735DC7-71AE-4EAF-8498-0555925FEB15}](https://github.com/user-attachments/assets/82695c33-c633-45db-903a-8eb65084a503)
+  ![{D6D85E9A-04D0-4124-A7C9-E817B6B9A2FB}](https://github.com/user-attachments/assets/e6ebc5e7-0a9d-4159-b5a4-a9710e17f35c)
+
+  
+
+
 
 
 
