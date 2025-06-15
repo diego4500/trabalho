@@ -39,3 +39,6 @@ O Express é um framework do Node.js que facilita a criação de servidores e AP
 Abaixo fiz uma prática onde criei um arquivo com 30 dados com nome, email e telefone no formato json. Criei uma rota com express que exibe essa pagina html com tabela onde no arquivo js tem uma fetch chamando a rota (utilizando express) para pegar os dados do arquivo json e trazer para a tabela. <br>
 https://github.com/diego4500/trabalho/blob/develop/exemplos/index.js <br>
 https://github.com/diego4500/trabalho/blob/develop/exemplos/express/index.html <br>
+
+## Axios
+Axios é uma biblioteca JavaScript baseada em Promises usada para fazer requisições HTTP, tanto no fontend quanto no backend. No exemplo prático eu utilizei o Axios para acessar uma rota interna com dados JSON. No backend utilizei o Axios para acessar o JSON de uma API externa onde no frontend tem outro Axions para tratar e exibir em uma tabela.
