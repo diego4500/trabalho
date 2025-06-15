@@ -42,3 +42,9 @@ https://github.com/diego4500/trabalho/blob/develop/exemplos/express/index.html <
 
 ## Axios
 Axios é uma biblioteca JavaScript baseada em Promises usada para fazer requisições HTTP, tanto no fontend quanto no backend. No exemplo prático eu utilizei o Axios para acessar uma rota interna com dados JSON. No backend utilizei o Axios para acessar o JSON de uma API externa onde no frontend tem outro Axions para tratar e exibir em uma tabela.
+Linha 48 - Utilizando o Axios no front <br>
+https://github.com/diego4500/trabalho/blob/develop/exemplos/public/axios_api_externa/index.html <br>
+Linha 36 - Utilizando o Axios no backend para acessar o JSON de uma API externa <br>
+https://github.com/diego4500/trabalho/blob/develop/exemplos/index.js <br>
+
+
