@@ -48,8 +48,16 @@ Linha 36 - Utilizando o Axios no backend para acessar o JSON de uma API externa 
 https://github.com/diego4500/trabalho/blob/develop/exemplos/index.js <br>
 
 ## Handlebars
-Handlebars é um mecanismo de template utilizado para gerar páginas HTML dinâmicas a partir de dados fornecidos pela aplicação. Sua principal função é separar a lógica de programação do conteúdo visual, permitindo que desenvolvedores criem aplicações mais organizadas, reutilizáveis e de fácil manutenção. Com o Handlebars, o desenvolvedor define estruturas de apresentação utilizando marcações próprias dentro dos arquivos de template. Essas marcações funcionam como espaços reservados para que informações provenientes do código backend possam ser inseridas de forma dinâmica durante a renderização da página. Um dos grandes diferenciais do Handlebars é a possibilidade de reaproveitar layouts, criar componentes visuais reutilizáveis e aplicar condições e repetições diretamente nas views, sem misturar regras de negócio com a camada visual. Isso torna o desenvolvimento web mais eficiente e padronizado.
-No contexto Node.JS o Handlebars é amplamente adotado em conjunto com frameworks como Express para gerar respostas HTML personalizadas a cada requisição, sendo uma solução leve, simples e de fácil integração para aplicações que necessitam de páginas dinâmicas e estruturadas.
-Em resumo, Handlebars é uma tecnologia que proporciona organização, produtividade e flexibilidade na construção de aplicações web focando na separação entre dados e visualização.
+Handlebars é um mecanismo de template usado para gerar páginas HTML dinâmicas no servidor, facilitando a separação entre a lógica da aplicação e a apresentação visual. Ele permite criar layouts reutilizáveis e inserir dados diretamente nas páginas de forma simples, tornando o desenvolvimento web mais organizado e produtivo, especialmente em projetos com Node.js. <br>
+* Separação entre lógica e visual: Facilita a manutenção do código, mantendo a lógica no backend e a apresentação no template
+* Reutilização de layouts: Permite cria layouts e componentes reaproveitáveis, economizando tempo e esforço.
+* Sintaxe Simples e intuitiva: Fácil de aprender e entender, até para iniciantes.
+* Gração de HTML no servidor: Melhora o SEO e o tempo de carregamento inicial da página, pois o HTML já chega pronto ao navegador.
+* Facilidade de integração: Funciona muito bem com frameworks backend como Express no Node.JS.
+* Suporte a condicionais e loops: Permite inserir lógicas simples diretamento nos templates, tornando-os mais dinâmicos.
+
+  Abaixo criei um projeto totalmente com html, css, node.js e handlebars e nenhum javascript no front
+  ![{DE074C62-1BA7-4D36-B68F-F4AED66FE252}](https://github.com/user-attachments/assets/e0865b97-8bd3-4f7a-951d-58ca2d0501a9)
+
 
 
