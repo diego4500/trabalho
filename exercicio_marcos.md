@@ -36,3 +36,6 @@ Segue abaixo algumas características:
 
 ## Express
 O Express é um framework do Node.js que facilita a criação de servidores e APIs. Ele permite implementar APIs que seguem a arquitetura RESTful.
+Abaixo fiz uma prática onde criei um arquivo com 30 dados com nome, email e telefone no formato json. Criei uma rota com express que exibe essa pagina html com tabela onde no arquivo js tem uma fetch chamando a rota (utilizando express) para pegar os dados do arquivo json e trazer para a tabela.
+https://github.com/diego4500/trabalho/blob/develop/exemplos/index.js
+https://github.com/diego4500/trabalho/blob/develop/exemplos/express/index.html
