@@ -47,4 +47,9 @@ https://github.com/diego4500/trabalho/blob/develop/exemplos/public/axios_api_ext
 Linha 36 - Utilizando o Axios no backend para acessar o JSON de uma API externa <br>
 https://github.com/diego4500/trabalho/blob/develop/exemplos/index.js <br>
 
+## Handlebars
+Handlebars é um mecanismo de template utilizado para gerar páginas HTML dinâmicas a partir de dados fornecidos pela aplicação. Sua principal função é separar a lógica de programação do conteúdo visual, permitindo que desenvolvedores criem aplicações mais organizadas, reutilizáveis e de fácil manutenção. Com o Handlebars, o desenvolvedor define estruturas de apresentação utilizando marcações próprias dentro dos arquivos de template. Essas marcações funcionam como espaços reservados para que informações provenientes do código backend possam ser inseridas de forma dinâmica durante a renderização da página. Um dos grandes diferenciais do Handlebars é a possibilidade de reaproveitar layouts, criar componentes visuais reutilizáveis e aplicar condições e repetições diretamente nas views, sem misturar regras de negócio com a camada visual. Isso torna o desenvolvimento web mais eficiente e padronizado.
+No contexto Node.JS o Handlebars é amplamente adotado em conjunto com frameworks como Express para gerar respostas HTML personalizadas a cada requisição, sendo uma solução leve, simples e de fácil integração para aplicações que necessitam de páginas dinâmicas e estruturadas.
+Em resumo, Handlebars é uma tecnologia que proporciona organização, produtividade e flexibilidade na construção de aplicações web focando na separação entre dados e visualização.
+
 
