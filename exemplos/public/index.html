@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Axios Externo e Interno</title>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      padding: 40px;
+      text-align: center;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    button {
+      margin: 10px;
+      padding: 12px 24px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      background-color: #007BFF;
+      color: white;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    pre {
+      text-align: left;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      max-width: 800px;
+      margin: 30px auto 0 auto;
+      overflow-x: auto;
+    }
+  </style>
+</head>
+<body>
+  <h2>Exemplo com Axios</h2>
+
+<a href="http://localhost:3000/api_exeterna">
+  <button>Axios API Externa</button>
+</a>
+
+<a href="http://localhost:3000/express">
+  <button>Axios API Interna</button>
+</a>
+
+
+  <pre id="resultado">Clique em um botão que será encaminhado para uma página utilizando essa tecnologia.</pre>
+
+</body>
+</html>

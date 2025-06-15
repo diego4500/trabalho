@@ -24,6 +24,8 @@
       text-align: center;
     }
   </style>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
 </head>
 <body>
 
@@ -43,12 +45,12 @@
   </table>
 
   <script>
-    fetch('http://localhost:3000/contatos') //O fetch é usado para fazer a ponte entre o front e o back
-      .then(response => response.json()) // No .then é convertido em json para array e objeto
-      .then(contatos => {
+   axios.get('http://localhost:3000/usuarios') //O fetch é usado para fazer a ponte entre o front e o back
+      .then(res => {
         const tabela = document.getElementById('tabela-contatos'); // id onde será renderizada a tabela no front
+        const dados = res.data;
 
-        contatos.forEach(contato => { 
+        dados.forEach(contato => { 
           const linha = document.createElement('tr');
           linha.innerHTML = `
             <td>${contato.nome}</td>
