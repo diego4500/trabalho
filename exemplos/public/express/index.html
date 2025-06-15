@@ -45,7 +45,7 @@
   </table>
 
   <script>
-   axios.get('http://localhost:3000/usuarios') //O fetch é usado para fazer a ponte entre o front e o back
+   axios.get('http://localhost:3000/contatos') //O fetch é usado para fazer a ponte entre o front e o back
       .then(res => {
         const tabela = document.getElementById('tabela-contatos'); // id onde será renderizada a tabela no front
         const dados = res.data;
