@@ -1,0 +1,19 @@
+<h2>Lista de Contatos</h2>
+<table border="1" cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Nome</th>
+      <th>Telefone</th>
+      <th>Email</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each contatos}}
+      <tr>
+        <td>{{nome}}</td>
+        <td>{{telefone}}</td>
+        <td>{{email}}</td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>
