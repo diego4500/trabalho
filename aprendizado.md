@@ -22,4 +22,8 @@ PostgreSQL
 2 - Service: Lógica de negócio e CRUD; <br>
 3 - API: Ponto de entrada HTTP, recebe requisições e responde resultados. <br>
 
+## Prática
+### Como criar um plugin no backend?
+Para contruir um plugin no backend temos que criar uma estrutura na pasta plugins, segue o endereço da pasta
+...\api\src\plugins
 
