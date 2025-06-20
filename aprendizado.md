@@ -18,8 +18,8 @@ Vue.JS, Quasar Framework, Handlebars.js
 PostgreSQL
 
 ### Arquitetura - Integração de Camadas
-1 - Model: Define a estrutura dos dados;
-2 - Service: Lógica de negócio e CRUD;
-3 - API: Ponto de entrada HTTP, recebe requisições e responde resultados.
+1 - Model: Define a estrutura dos dados; <br>
+2 - Service: Lógica de negócio e CRUD; <br>
+3 - API: Ponto de entrada HTTP, recebe requisições e responde resultados. <br>
 
 
