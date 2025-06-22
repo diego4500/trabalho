@@ -22,7 +22,7 @@ Fluxo assíncrono: <br>
 1 - Dados inseridos <br>
 
 ## No código
-'''js
+```js
 function inserirDados() {
     return new Promise(resolve => {
         setTimeout(() => {
@@ -58,4 +58,4 @@ async function fluxo() {
 }
 
 fluxo();
-'''
+```
