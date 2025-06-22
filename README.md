@@ -9,12 +9,10 @@ Ou seja, não aguarda uma requisição finalizar para seguir o fluxo. Isso permi
 Porém, muitas vezes precisamos de um comportamento síncrono, onde uma etapa depende dos dados da etapa anterior (por exemplo, salvar no banco só após receber os dados).
 
 Para essa solução, usamos Promise, async e await. Com eles, podemos controlar melhor o fluxo do código, aguardando operações terminarem antes de seguir.
-
- <br>
 Fluxo síncrono: <br>
 1 - Dados inseridos <br>
 2 - Dados recolhidos <br>
-3 - Dados salvo no banco de dados <br>
+3 - Dados salvo no banco de dados <br> <br>
 
 Fluxo assíncrono: <br>
 2 - Dados recolhidos <br>
