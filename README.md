@@ -58,7 +58,7 @@ async function fluxo() {
 fluxo();
 ```
 Veja agora abaixo um exemplo onde é solicidados os dados via requisição de uma API.
-* Na const resposta existe uma fetch que tem uma promise, após receber esses dados segue para próxima etapa.
+* Na const resposta existe uma fetch que retorna uma promise, após receber esses dados segue para próxima etapa.
 * Nessa etapa o const posts aguarda uma promessa da conversão dos dados em JSON
 * Ao finalizar temos objeto com todos os dados prontos para ser trabalhados.
 * Por fim esses dados passa por um foreach para serem exibidos.
