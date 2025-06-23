@@ -94,7 +94,7 @@ module.exports = {
 ```
 4. Próxima estrutura a criar é a pasta apis e dentro dela criar o arquivo nomeArquivo.api.js
 5. Segue uma estrutura básica dentro desse arquivo:
-   ```js
+```js
 const Api = require('../../system/core.api')
 // Exporta uma nova API REST utilizando o método Api.Rest
 // Aqui definimos metadados como:
