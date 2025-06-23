@@ -118,6 +118,10 @@ module.exports = new Api.Rest({
 })
 ```
 ![image](https://github.com/user-attachments/assets/1b110024-ee31-44c9-9551-17b57f18470b)
+6. Para finalizar registrar o nome do plugin no arquivo config.json no endereço:
+dlapp\api\src\config.json;
+7. Veja que os plugins ficam registrados como irmãs do system
+![image](https://github.com/user-attachments/assets/a1de5580-1c8d-48b7-9b1e-d060e0d78a0c)
 
 
 
