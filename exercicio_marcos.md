@@ -71,7 +71,7 @@ Abaixo criei um projeto totalmente com html, css, node.js e handlebars e nenhum 
 1. primeiramente crie a pasta do plugin no endereço - dlapp\api\src\plugins
 2. após criar a pasta crie uma estrutura mínimo que é:
    dlapp\api\src\plugins\nome_plugin (nome do plugin é a pasta)
-3. Em seguida nessa pasta crie o index.js. Abaixo segue uma estrutura mínimo:
+3. Em seguida nessa pasta crie o index.js. Abaixo segue uma estrutura mínima:
   ```js
 module.exports = {
   name: 'treinamento-admin', 
