@@ -117,7 +117,8 @@ module.exports = new Api.Rest({
     }
 })
 ```
-  ![image](https://github.com/user-attachments/assets/166aab04-6554-46b7-8f96-05d060a2236d)
+![image](https://github.com/user-attachments/assets/1b110024-ee31-44c9-9551-17b57f18470b)
+
 
 
 
