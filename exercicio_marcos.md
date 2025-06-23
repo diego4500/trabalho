@@ -149,6 +149,19 @@ routes.push({
 
 console.log('🛍️ Rota /loja criada com sucesso!')
 ```
+4. Veja que no arquivo index.js chama o arquivo ./loja/Loja.vue que possui uma estrutura básica abaixo:
+```js
+<template>
+  <div class="q-pa-md">
+    <p>Hello World</p>
+  </div>
+</template>
+
+<script setup>
+// Página simples, sem lógica
+</script>
+
+```
 
 
 
