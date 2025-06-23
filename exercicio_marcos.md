@@ -121,8 +121,34 @@ module.exports = new Api.Rest({
 6. Para finalizar registrar o nome do plugin no arquivo config.json no endereço: <br>
 dlapp\api\src\config.json; <br>
 7. Veja que os plugins ficam registrados como irmãs do system <br>
-![image](https://github.com/user-attachments/assets/a1de5580-1c8d-48b7-9b1e-d060e0d78a0c)
+![image](https://github.com/user-attachments/assets/a1de5580-1c8d-48b7-9b1e-d060e0d78a0c) <br>
+8. Finalizado, até aqui foi configurado o plugin no backend.
 
+
+### Configurando o frontend
+1. Criar a pasta do plugin no endereço \web\src\boot
+2. Dentro da pasta do plugin \web\src\boot\pasta_plugin criar o arquivo index.js
+3. Segue a estrutura básica do index.js
+```js
+// Importação dos vetores de rotas principais do sistema
+import { routes, anonymousRoutes } from '../system'
+
+// Importação do componente Vue da página Loja, criado dentro do plugin
+import Loja from "./loja/Loja.vue"
+
+// Adiciona a rota '/loja' ao vetor de rotas anônimas.
+// Isso permite que a página seja acessada sem autenticação.
+anonymousRoutes.push('/loja')
+
+// Registra a rota '/loja' no vetor principal de rotas.
+// Isso torna a rota oficialmente acessível no sistema.
+routes.push({
+  path: '/loja',
+  component: Loja
+})
+
+console.log('🛍️ Rota /loja criada com sucesso!')
+```
 
 
 
