@@ -66,7 +66,32 @@ Abaixo criei um projeto totalmente com html, css, node.js e handlebars e nenhum 
   ![{EE735DC7-71AE-4EAF-8498-0555925FEB15}](https://github.com/user-attachments/assets/82695c33-c633-45db-903a-8eb65084a503)
   ![{D6D85E9A-04D0-4124-A7C9-E817B6B9A2FB}](https://github.com/user-attachments/assets/e6ebc5e7-0a9d-4159-b5a4-a9710e17f35c) <br>
   
+## Como criar um plugin no DLApp
+### Configurando no backend
+1. primeiramente crie a pasta do plugin no endereço - dlapp\api\src\plugins
+2. após criar a pasta crie uma estrutura mínimo que é:
+   dlapp\api\src\plugins\nome_plugin (nome do plugin é a pasta)
+3. Em seguida nessa pasta crie o index.js. Abaixo segue uma estrutura mínimo:
+  ```js
+module.exports = {
+  name: 'treinamento-admin', 
+  label: 'Treinamento Admin',
 
+  async setup () {
+// O core.api tem como finalidade centralizar a criação e o gerenciamento das APIs no DLAPP.
+// Ele fornece métodos como Api.Rest e Api.Register para definir rotas HTTP (GET, POST, etc.)
+// e registrá-las corretamente no sistema, respeitando o padrão modular de plugins.
+    const Api = require('../system/core.api') 
+
+// Aqui é feito o registro da API no core.api.
+// O caminho fornecido deve apontar para o arquivo .api.js (sem extensão),
+// que exporta uma instância de Api ou Api.Rest.
+// Isso garante que as rotas definidas nesse arquivo sejam carregadas pelo DLAPP.
+    await Api.Register('/treinamento-admin/apis/treinamento') 
+
+  }
+}
+```
   
 
 
