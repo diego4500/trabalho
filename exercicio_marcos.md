@@ -165,6 +165,9 @@ console.log('🛍️ Rota /loja criada com sucesso!')
 5. Para finalizar, no arquivo "dlapp\web\src\config.json" temos que incluir a pasta dos plugins, para isso coloque o mesmo nome da pasta no arquivo config.json. Esses nomes
    deve ficar dentro de plugins e irmãs do plugin system. <br>
 ![image](https://github.com/user-attachments/assets/91af181b-d806-46a8-97c5-e10a6799c0fc) <br>
+exemplo dos plugins dentro da pasta book <br>
+![image](https://github.com/user-attachments/assets/eb68d879-1f7b-429c-b973-1a24a4b4d34f) <br>
+
 6. Feito esses passos o processo foi finalizado.
 
    
