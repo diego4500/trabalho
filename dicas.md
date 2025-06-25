@@ -31,7 +31,16 @@ Dados Json para testar a rota:<br>
 ```json
 {
  "data": {
-  "nome": "Produto Teste"
+  "nome": "Betoneira",
+  "codigo": "5150",
+  "categoria":"",
+  "marca":"Samsung",
+  "data_aquisicao":"25/06/2025",
+  "valor_aquisicao":"1500",
+  "valor_indenizacao":"3000",
+  "quantidade":10,
+  "fotoId":"",
+  "data_ultima_manutencao":""
 }
  }
 ```
