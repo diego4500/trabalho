@@ -10,7 +10,11 @@ FROM public.document
 WHERE data ->> 'nome' = 'Produto Teste';
 ```
 ## Token
-![image](https://github.com/user-attachments/assets/cd9a9eca-d538-4356-a4c5-9e7088fc7a98)
+![image](https://github.com/user-attachments/assets/cd9a9eca-d538-4356-a4c5-9e7088fc7a98) <br>
+
+## Inserindo o token no Postman
+![image](https://github.com/user-attachments/assets/c68318a6-950a-4b46-8355-45c91968afde)
+
 
 ## Criando a rota para chamar o Model
 registrar na core.api dentro do index.js <br>
