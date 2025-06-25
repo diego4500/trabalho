@@ -4,8 +4,8 @@
 
 
 ## Query buscar produto no banco
-`js
+```sql
 SELECT *
 FROM public.document
 WHERE data ->> 'nome' = 'Produto Teste';
-`
+```
