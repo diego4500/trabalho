@@ -14,12 +14,21 @@ WHERE data ->> 'nome' = 'Produto Teste';
 
 ## Criando a rota para chamar o Model
 registrar na core.api dentro do index.js <br>
-![image](https://github.com/user-attachments/assets/9ec6c460-dcec-43bb-b022-5a50687b5132)
+![image](https://github.com/user-attachments/assets/9ec6c460-dcec-43bb-b022-5a50687b5132)<br>
 
-produto.model.js
+produto.model.js<br>
 
-![image](https://github.com/user-attachments/assets/43e07a85-0e1f-478d-b0aa-fb76a0c9fe75)
+![image](https://github.com/user-attachments/assets/43e07a85-0e1f-478d-b0aa-fb76a0c9fe75)<br>
 
-Rota gerada
-![image](https://github.com/user-attachments/assets/56c92fac-2a20-448c-a0de-a5b7eb165a1c)
+Rota gerada<br>
+![image](https://github.com/user-attachments/assets/56c92fac-2a20-448c-a0de-a5b7eb165a1c)<br>
+
+Dados Json para testar a rota:<br>
+```json
+{
+ "data": {
+  "nome": "Produto Teste"
+}
+ }
+```
 
