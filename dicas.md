@@ -86,3 +86,6 @@ O erro acima só será transmitido se for feito o...
 ```js
 const SystemError = require('../../system/core.error')
 ```
+## Debugar
+No Webstorm é possível visualizar o dado e toda a estrutura do objeto, veja o print abaixo:
+![image](https://github.com/user-attachments/assets/2491092b-a8ea-4192-b13a-7bc39588653f)
