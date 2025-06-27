@@ -86,7 +86,7 @@ verifica o inst.dataValues.data.quantidade (dados da quantidade em estoque) onde
 ```js
 throw new SystemError('Produto não pode ser excluído porque ainda há itens em estoque.')
 ```
-O erro acima só será transmitido se for feito o...
+O erro acima só será transmitido se for feito a importação do arquivo...
 ```js
 const SystemError = require('../../system/core.error')
 ```
