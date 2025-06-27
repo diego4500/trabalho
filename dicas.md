@@ -28,7 +28,7 @@ Rota gerada<br>
 ![image](https://github.com/user-attachments/assets/56c92fac-2a20-448c-a0de-a5b7eb165a1c)<br>
 
 Dados Json para testar a rota:<br>
-```
+```js
 // Salvar o produto
 {
  "data": {
