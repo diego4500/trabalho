@@ -57,6 +57,8 @@ const SystemError = require('../../system/core.error')
 ```
 ### Alguns exemplos de hooks
 Antes de irmos para o exemplo vamos responder o que é hook.
+No contexto do DLAPP, um hook é uma função que permite interceptar e executar lógica personalizada em momentos específicos do ciclo 
+da vida do dado, como antes ou depois de criar, atualizar ou excluir os registros.
 
 ```js
    async beforeCreateOrUpdate(self, inst, ctx) {
