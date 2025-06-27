@@ -56,6 +56,8 @@ const Model = require('../../system/core.model')
 const SystemError = require('../../system/core.error')
 ```
 ### Alguns exemplos de hooks
+Antes de irmos para o exemplo vamos responder o que é hook.
+
 ```js
    async beforeCreateOrUpdate(self, inst, ctx) {
         const campos = Object.keys(self.schema.model)
