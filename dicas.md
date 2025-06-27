@@ -55,4 +55,17 @@ regras de obrigatoriedade, valores padrões e opções válidas, facilitando a v
 const Model = require('../../system/core.model')
 const SystemError = require('../../system/core.error')
 ```
+### Alguns exemplos de hooks
+```js
+   async beforeCreateOrUpdate(self, inst, ctx) {
+        const campos = Object.keys(self.schema.model)
+        for (let campo of campos) {
+            if (inst.data[campo] === '') {
+                delete inst.data[campo]
+            }
+        }
+    }
+```
+Essa função async pega o schema do objeto onde acessa o self.schema.model e busca todos os campos, com isso é passada para um vetor.
+Com o vetor formado ele é passado no for onde é feita uma condição onde se o campo estiver '', o mesmo é deletado.
 
