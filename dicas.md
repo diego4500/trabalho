@@ -44,4 +44,15 @@ Dados Json para testar a rota:<br>
 }
  }
 ```
+## Mais informações do Model
+O model DLAPP serve para definir a estrutura dos dados, padronizar, validar e organizar como as informações serão tratadas no sistema. Ele garante que todos os campos têm tipo correto, 
+regras de obrigatoriedade, valores padrões e opções válidas, facilitando a validação automática e a manutenção da aplicação. Segue abaixo umas informações interessantes:
+* Pelo modal do DLAPP é possível gerar operações de CRUD automaticamente de acordo com o método de chamada (GET, POSTE, DELETE, etc);
+* Nele também é possível criar hooks e colocar funções async colocando lógicas como por exemplo antes de fazer o CRUDE
+* Para o model funcionar corretamento tem que ser feito a importação do core.model
+* Para as mensagens tem que importar o core.error
+```js
+const Model = require('../../system/core.model')
+const SystemError = require('../../system/core.error')
+```
 
