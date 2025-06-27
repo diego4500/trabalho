@@ -69,3 +69,12 @@ const SystemError = require('../../system/core.error')
 Essa função async pega o schema do objeto onde acessa o self.schema.model e busca todos os campos, com isso é passada para um vetor.
 Com o vetor formado ele é passado no for onde é feita uma condição onde se o campo estiver '', o mesmo é deletado.
 
+```js
+async beforeDelete(self, inst, ctx) {
+        if (inst.dataValues.data.quantidade > 0) {
+            throw new SystemError('Produto não pode ser excluído porque ainda há itens em estoque.')
+        }
+    }
+```
+Essa função tem o objetivo de executar uma lógica antes de efetuar o método DELETE. A lógica contida nela é onde
+verifica o inst.dataValues.data.quantidade (dados da quantidade em estoque) onde permite a exclusão somente se tiver quantidade zero.
