@@ -78,3 +78,11 @@ async beforeDelete(self, inst, ctx) {
 ```
 Essa função tem o objetivo de executar uma lógica antes de efetuar o método DELETE. A lógica contida nela é onde
 verifica o inst.dataValues.data.quantidade (dados da quantidade em estoque) onde permite a exclusão somente se tiver quantidade zero.
+
+```js
+throw new SystemError('Produto não pode ser excluído porque ainda há itens em estoque.')
+```
+O erro acima só será transmitido se for feito o...
+```js
+const SystemError = require('../../system/core.error')
+```
