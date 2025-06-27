@@ -29,6 +29,7 @@ Rota gerada<br>
 
 Dados Json para testar a rota:<br>
 ```json
+// Salvar o produto
 {
  "data": {
   "nome": "Betoneira",
@@ -43,6 +44,51 @@ Dados Json para testar a rota:<br>
   "data_ultima_manutencao":""
 }
  }
+
+// Script Postman
+{
+ "data": {
+  "nome": "{{nome}}",  
+  "codigo":{{codigo}},
+  "data_aquisicao":"{{data_aquisicao}}",  
+  "quantidade":1  
+}
+ }
+
+// Testar GET ou DELETE
+{
+  "id": "{{id}}",
+  "updatedAt": "{{updatedAt}}",
+  "createdAt": "{{createdAt}}"
+}
+
+// Script no Postman
+// Pre-request
+// Nome do produto
+pm.environment.set("nome", "Betoneira");
+
+// Código do produto
+pm.environment.set("codigo", "5200");
+
+// Data de aquisição: hoje
+const hoje = new Date();
+pm.environment.set("data_aquisicao", hoje.toISOString().substring(0, 10));
+
+// Data da última manutenção: 7 dias atrás
+const ultimaManutencao = new Date();
+ultimaManutencao.setDate(ultimaManutencao.getDate() - 7);
+pm.environment.set("data_ultima_manutencao", ultimaManutencao.toISOString().substring(0, 10));
+
+//Post-response
+
+const json = pm.response.json(); // pega o objeto principal
+
+pm.environment.set("id", json.id);
+pm.environment.set("createdAt", json.createdAt);
+pm.environment.set("updatedAt", json.updatedAt);
+
+
+
 ```
 ## Mais informações do Model
 O model DLAPP serve para definir a estrutura dos dados, padronizar, validar e organizar como as informações serão tratadas no sistema. Ele garante que todos os campos têm tipo correto, 
