@@ -171,4 +171,11 @@ Exemplo prático: Digamos que você criou um novo model chamado tipo-locacao.mod
   { nome: 'Semanal', dias: 7 },
   { nome: 'Mensal', dias: 30 }
 ```
+Nesse caso teriamos que usar  o core.dbupgrade para criar um arquivo tipo-locacao.dbupgrade.js que insere isso no banco somente se ainda não existir
+
+Estrutura do dbupgrade
+![image](https://github.com/user-attachments/assets/705171ce-94a7-4ffa-926a-515804430338)
+
+![image](https://github.com/user-attachments/assets/395196cb-2aa0-4381-aa11-253c088f45e1)
+
 
