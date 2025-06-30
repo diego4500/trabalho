@@ -155,7 +155,7 @@ Agora quando não passamos o ID ao efetuar o GET temos como resposta todos os da
 ```
 ![image](https://github.com/user-attachments/assets/7f931b8d-612b-4207-b9d0-4bd6884d3aa7)
 
-## Estrutura do dbupgrade
+##  dbupgrade
 No contexto do DLAPP o arquivo core.dbupgrade está importando um módulo responsável por executar script de atualização do banco de dados. Esse
 tipo de script geralmente é chamado de DbUpgrade, seed ou migration script, dependendo do contexto.
 ### Finalidade Principal
