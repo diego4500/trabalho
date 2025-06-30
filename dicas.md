@@ -142,7 +142,7 @@ Para fazer o Debug basta marcar os pontos do breakpointt para parada e pegar as 
 ![image](https://github.com/user-attachments/assets/2491092b-a8ea-4192-b13a-7bc39588653f)
 
 ## Qual a diferença em passa o id no GET e não passar?
-Ao passar o id ao efetuar o GET e tido como resposta os dados daquele id veja ao debugar o que temos de informação:
+Ao passar o id e efetuar o GET, é tido como resposta os dados daquele id. Veja ao debugar o que temos de informação:
 enviei esse GET 
 ```
 http://localhost:3001/api/treinamento-admin/produto/model?id=9be90e40-55bc-11f0-b01f-99e6a54695d7
