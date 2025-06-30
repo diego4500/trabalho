@@ -147,5 +147,6 @@ enviei esse GET
 ```
 http://localhost:3001/api/treinamento-admin/produto/model?id=9be90e40-55bc-11f0-b01f-99e6a54695d7
 ```
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/a68fe8d2-dca5-42dd-aa3a-7398bf3b064c)
+
 
