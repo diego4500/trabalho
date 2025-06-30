@@ -155,5 +155,20 @@ Agora quando não passamos o ID ao efetuar o GET temos como resposta todos os da
 ```
 ![image](https://github.com/user-attachments/assets/7f931b8d-612b-4207-b9d0-4bd6884d3aa7)
 
+## Estrutura do dbupgrade
+No contexto do DLAPP o arquivo core.dbupgrade está importando um módulo responsável por executar script de atualização do banco de dados. Esse
+tipo de script geralmente é chamado de DbUpgrade, seed ou migration script, dependendo do contexto.
+### Finalidade Principal
+O módulo core.dbupgrade serve para automatizar inserções, alterações ou correções no banco de dados, que precisam ser aplicadas uma única vez ou em cenários específicos, como:
+* Inserir dados iniciais(ex.: tipos padrão, configurações iniciais;
+* Corrigir dados com erro;
+* Migrar dados de um formato antigo para outro;
+* Atualizar estrutura interna de documentos JSONB, por exemplo.
+Exemplo prático: Digamos que você criou um novo model chamado tipo-locacao.model.js e quer que, quando o sistema for iniciado, ele insira automaticamente esses três registros:
 
+```js
+  { nome: 'Diária', dias: 1 },
+  { nome: 'Semanal', dias: 7 },
+  { nome: 'Mensal', dias: 30 }
+```
 
