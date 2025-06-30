@@ -140,3 +140,12 @@ const SystemError = require('../../system/core.error')
 No Webstorm é possível visualizar o dado e toda a estrutura do objeto utilizando o Debug.
 Para fazer o Debug basta marcar os pontos do breakpointt para parada e pegar as informações do objeto, veja o print abaixo:
 ![image](https://github.com/user-attachments/assets/2491092b-a8ea-4192-b13a-7bc39588653f)
+
+## Qual a diferença em passa o id no GET e não passar?
+Ao passar o id ao efetuar o GET e tido como resposta os dados daquele id veja abaixo:
+enviei esse GET 
+```
+http://localhost:3001/api/treinamento-admin/produto/model?id=9be90e40-55bc-11f0-b01f-99e6a54695d7
+```
+![Uploading image.png…]()
+
