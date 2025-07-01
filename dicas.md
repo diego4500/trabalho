@@ -199,5 +199,9 @@ Nesse model criaremos a estrutura dos dados. Quando for criado o dado dentro de 
 ![image](https://github.com/user-attachments/assets/b9e57308-c984-484d-ad28-d64e4b58e9f9)
 ![image](https://github.com/user-attachments/assets/4717831c-dc25-4877-a8cd-7d4200478d1f)
 
+O que essa parte do código quer dizer? <br>
+![image](https://github.com/user-attachments/assets/ba5375c0-049b-4671-98cb-f79ddf10c1b1) <br>
+Esse trecho é responsável exportar toda essa estrutura da function execute() para dentro do setup, porque esse setup() é executado quando o sistema é incializado, ou seja, além desse dbupgrade são executados vários outros dbupgrades de outros plugins. No index.js é feito um require desse setup() onde automaticamente é executado o execute(). <br>
+![image](https://github.com/user-attachments/assets/13885843-4a96-407c-8cbe-e7ce43bb5776)
 
 
