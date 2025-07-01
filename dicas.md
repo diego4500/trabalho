@@ -185,4 +185,7 @@ Estrutura do dbupgrade
 
 ![image](https://github.com/user-attachments/assets/395196cb-2aa0-4381-aa11-253c088f45e1)
 
+### Processo para criação de um dbupgrade do zero
+
+
 
