@@ -186,9 +186,14 @@ Estrutura do dbupgrade
 ![image](https://github.com/user-attachments/assets/395196cb-2aa0-4381-aa11-253c088f45e1)
 
 ### Processo para criação de um dbupgrade do zero
-### 1 - Criando o Model
+### 1 - Estrutura da pasta do plugin
+![image](https://github.com/user-attachments/assets/5f3d5476-fdbf-44f8-9fc6-7c2b7070377f)
+
+### 2 - Criando o Model
 Nesse model criaremos a estrutura dos dados. Quando for criado o dado dentro de data, o mesmo respeitará essa estrutura criada. 
 
 ![image](https://github.com/user-attachments/assets/1c9527a6-e118-4ca9-8c54-ca14968f596c)
+
+
 
 
