@@ -197,6 +197,7 @@ Nesse model criaremos a estrutura dos dados. Quando for criado o dado dentro de 
 ## 3 - Criando o dbupgrade.js
 
 ![image](https://github.com/user-attachments/assets/b9e57308-c984-484d-ad28-d64e4b58e9f9)
+![image](https://github.com/user-attachments/assets/4717831c-dc25-4877-a8cd-7d4200478d1f)
 
 
 
