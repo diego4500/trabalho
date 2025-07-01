@@ -155,6 +155,13 @@ Agora quando não passamos o ID ao efetuar o GET temos como resposta todos os da
 ```
 ![image](https://github.com/user-attachments/assets/7f931b8d-612b-4207-b9d0-4bd6884d3aa7)
 
+## Estrutura dos dados
+No DLApp segue abaixo o exemplo da estrutura de um dado
+![image](https://github.com/user-attachments/assets/8ecc23a9-6dec-4b05-b781-4bd7634e4997)
+
+
+*** O UUID v4 é um identificador único de 128 bits gerado aleatoriamente. Ele é amplamente usado para identificar informações de forma única em sistemas, banco de dados e etc.
+
 ##  dbupgrade
 No contexto do DLAPP o arquivo core.dbupgrade está importando um módulo responsável por executar script de atualização do banco de dados. Esse
 tipo de script geralmente é chamado de DbUpgrade, seed ou migration script, dependendo do contexto.
