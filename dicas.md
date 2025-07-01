@@ -205,3 +205,5 @@ Esse trecho é responsável exportar toda essa estrutura da function execute() p
 ![image](https://github.com/user-attachments/assets/13885843-4a96-407c-8cbe-e7ce43bb5776)
 
 
+## 4 - Acrescentando informações no index.js 
+![image](https://github.com/user-attachments/assets/14c65749-6ffb-4a07-b7e1-8797c55dfb2e)
