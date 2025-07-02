@@ -36,6 +36,7 @@ Dados Json para testar a rota:<br>
   "codigo": "5150",
   "categoria":"",
   "marca":"Samsung",
+  "data_fabricacao":"01/06/2023",
   "data_aquisicao":"25/06/2025",
   "valor_aquisicao":"1500",
   "valor_indenizacao":"3000",
