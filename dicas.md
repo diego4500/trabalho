@@ -208,3 +208,13 @@ Esse trecho é responsável exportar toda essa estrutura da function execute() p
 
 ## 4 - Acrescentando informações no index.js 
 ![image](https://github.com/user-attachments/assets/14c65749-6ffb-4a07-b7e1-8797c55dfb2e)
+
+# Fild Option
+O fild option é uma forma de estruturarar as opções de um tipo como por exemplo: 
+Produto de Locação ou de Venda?
+
+## Estruturando o fild Option
+
+### Criando o Model
+![image](https://github.com/user-attachments/assets/c0cdeff9-4c80-431f-a546-085dc1ac56bc)
+
