@@ -216,5 +216,9 @@ Produto de Locação ou de Venda?
 ## Estruturando o fild Option
 
 ### Criando o Model
+Na imagem abaixo estamos criando o Model para estruturar o fild option no banco de dados
 ![image](https://github.com/user-attachments/assets/c0cdeff9-4c80-431f-a546-085dc1ac56bc)
+
+![image](https://github.com/user-attachments/assets/5e0a8e26-f782-4978-a92d-27dbb25e1124)
+
 
