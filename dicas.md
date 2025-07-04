@@ -220,7 +220,7 @@ Na imagem abaixo estamos criando o Model para estruturar o fild option no banco 
 ![image](https://github.com/user-attachments/assets/c0cdeff9-4c80-431f-a546-085dc1ac56bc)
 No index é preenchido os dados que terão o field options (no topo). Abaixo no  setup() é registrado no core.api para dali para frente registrar esses dados no banco de dados.
 ![image](https://github.com/user-attachments/assets/5e0a8e26-f782-4978-a92d-27dbb25e1124)
-
+Ao iniciar o sistema é criado o field options no banco. 
 
 ![image](https://github.com/user-attachments/assets/670d6942-0b92-460a-8a39-63bce40618dc)
 
