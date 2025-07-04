@@ -8,6 +8,9 @@
 SELECT *
 FROM public.document
 WHERE data ->> 'nome' = 'Produto Teste';
+
+SELECT * FROM document 
+WHERE type ILIKE '%tipo-operacao-fo%'
 ```
 ## Token
 ![image](https://github.com/user-attachments/assets/cd9a9eca-d538-4356-a4c5-9e7088fc7a98) <br>
