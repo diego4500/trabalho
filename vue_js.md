@@ -87,4 +87,7 @@ Acima temos o trecho do código html, nesse trecho é passado um for para listar
   o valor dela para o oposto que está.
 * :class="item.active ? 'selected' : ''" - se o item.active for true é selecionado a classe selected se for false não escolhe nenhuma classe.
 Esse efeito serve para ao clicar mudar a cor da borda da div.
+![{7AFA492A-0E20-408A-8A82-C4F79394A56E}](https://github.com/user-attachments/assets/dbeb66f9-e208-4f80-b645-206e4d727f80)
+![{7FC933A8-D7C2-4690-8DAF-67587F9AE8EE}](https://github.com/user-attachments/assets/0b6f8292-b650-4be3-bbfa-11cdada8eea1)
+
 
