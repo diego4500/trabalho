@@ -14,6 +14,28 @@ Você só declara o que quer ver e o Vue faz todo o trabalho pesado de atualizar
 ![image](https://github.com/user-attachments/assets/05bc11a0-1dc7-4b21-9c30-10428b560a87) <br>
 ![image](https://github.com/user-attachments/assets/7356ac10-333a-4ed1-95f8-2fca17e9d47d) <br>
 
+## O DOM acessando um vetor no JS
+```js
+var products = [
+    {
+        "photo": "img/big-mac.png",
+        "name": "Big Mac",
+        "price": 5.99,
+        "active": false,
+        "quantity": 1
+    }
+]
 
+const SelfServiceMachine ={
+    data(){
+        return{
+            message: "MCDonald's",
+            products: window.products
+        }
+    }
+};
 
+Vue.createApp(SelfServiceMachine).mount('#app');
+```
 
+Com o <strong>products: window.products</strong> faz esse vetor de produtos ficar disponível no DOM.
