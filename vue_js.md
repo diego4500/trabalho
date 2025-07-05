@@ -75,5 +75,16 @@ Acima temos o trecho do código html, nesse trecho é passado um for para listar
 * o item se torna o início para acessar o índice e consequentemente o objeto, com isso passa-se na etrutura do products como:
   photo, name, price, active e quantility.
   
-
+### Explicando o trecho
+```html
+  <div 
+            class="product" 
+            v-for="item in products"
+            @click="item.active = !item.active"
+            :class="item.active ? 'selected' : '' ">
+```
+* @click="item.active = !item.active - Ao clicar na região dessa div é acionado um evento onde pega o item do vetor acessa a chave active e altera
+  o valor dela para o oposto que está.
+* :class="item.active ? 'selected' : ''" - se o item.active for true é selecionado a classe selected se for false não escolhe nenhuma classe.
+Esse efeito serve para ao clicar mudar a cor da borda da div.
 
