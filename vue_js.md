@@ -53,4 +53,27 @@ No html temos esse trecho
 ```
 onde ao clicar no button - vai decrementando o valor, veja que tem um limitador para quando chegar no <strong>0</strong> parar.
 
+## For no Vue
+```html
+            <div class="product" v-for="item in products">
+                <div class="photo">
+                    <img :src="item.photo">
+                </div>
+                <div class="description">
+                    <span class="name">{{ item.name }}</span>
+                    <span class="price">${{ item.price.toFixed(2) }}</span>
+                    <div class="quantity-area">
+                        <button @click="item.quantity > 0 && item.quantity--">-</button>
+                        <span class="quantity">{{ item.quantity }}</span>
+                        <button @click="item.quantity++">+</button>
+                    </div>
+                </div>
+            </div>
+```
+Acima temos o trecho do código html, nesse trecho é passado um for para listar os produtos, veja o que acontece em cada linha:
+* v-for="item in products" - Aqui o vetor products é passado no for onde cada item representa um índica;
+* o item se torna o início para acessar o índice e consequentemente o objeto, com isso passa-se na etrutura do products como:
+  photo, name, price, active e quantility.
+  
+
 
