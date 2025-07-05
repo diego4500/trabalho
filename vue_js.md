@@ -39,3 +39,18 @@ Vue.createApp(SelfServiceMachine).mount('#app');
 ```
 
 Com o <strong>products: window.products</strong> faz esse vetor de produtos ficar disponível no DOM.
+![image](https://github.com/user-attachments/assets/21f47a19-74cf-4a63-b773-d25e0a520ba4)
+
+## Diretivas do View
+No view é possível usar comandos especiais no HTML que fazem a ligação entre o template HTML e os dadosdo Javascript (o data() do vue por exemplo). Essas
+diretivas permitem que você controle o DOM usando apenas marcações HTML + lógica Vue, sem ter que usar diretamente document.querySelector, innerHTML, createElement etc, no Javascript puro. 
+Exemplos de comandos básicos utilizados dentro das tags: v-text, v-if, v-for, etc.
+
+## Evento de click
+No html temos esse trecho
+```html
+<button @click="item.quantity > 0 && item.quantity--">-</button>
+```
+onde ao clicar no button - vai decrementando o valor, veja que tem um limitador para quando chegar no <strong>0</strong> parar.
+
+
