@@ -90,4 +90,19 @@ Esse efeito serve para ao clicar mudar a cor da borda da div. <br>
 ![{7AFA492A-0E20-408A-8A82-C4F79394A56E}](https://github.com/user-attachments/assets/dbeb66f9-e208-4f80-b645-206e4d727f80)
 ![{7FC933A8-D7C2-4690-8DAF-67587F9AE8EE}](https://github.com/user-attachments/assets/0b6f8292-b650-4be3-bbfa-11cdada8eea1)
 
+### Aplicando o disabled quando menor que 1
+```html
+:disabled="item.quantity <=1
+```
+Se a quantidade for menor que 1 o botão é desabilitado
 
+### Deixando os filhos sem ação perante ao clique na div pai
+```html
+<button 
+                        @click.stop="item.quantity--"
+                        :disabled="item.quantity <= 1">-</button>
+                        <span class="quantity">{{ item.quantity }}</span>
+                        <button @click.stop="item.quantity++">+</button>
+```
+Ao clicar no botão que é filho aciona a ações da região do pai. Para que cause um stop nessa ação basta colocar no evento de click
+o @click.stop, com isso estamos dizendo que o botão mesmo sendo filho não será acionado a ação que foi determinada no pai.
