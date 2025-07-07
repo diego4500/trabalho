@@ -227,4 +227,29 @@ Ao iniciar o sistema é criado o field options no banco.
 
 ![image](https://github.com/user-attachments/assets/670d6942-0b92-460a-8a39-63bce40618dc)
 
+### Before Create Or Update (Antes de Criar a Atualização)
+A function 
+```js
+beforeCreateOrUpdate(self, inst, ctx){
+}
+```
+tem a função de ser executada antes de ser salva, segue um exemplo abaixo:
+```js
+async beforeCreateOrUpdate(self, inst, ctx) {
+        if(!inst.data.categoria){
+            inst.data.categoria = TIPO_OPERACAO_FO.schema.ID.LOCACAO
+            console.log("Meu teste: ", TIPO_OPERACAO_FO.schema.ID)
+        }
+    }
+```
+Na função acima tem o objetivo antes  de salvar ou atulizar algo no banco executar a seguinte ação:
+se o inst.data.categoria (dado categoria que estou salvando) estiver vazio, null ou undefined é acessado a condição onde esse dado é preenchido com o TIPO_OPERACAO_FO.schema.ID que é a categoria padrão salva no banco de dados.
 
+## Como funciona o Delete no DLApp?
+Para efetuar o delete de um cadastro basta informar o id, creatAt e o updateAt.
+ID do cadastro<br>
+![image](https://github.com/user-attachments/assets/abe97772-288d-44f7-ae9a-5d6b72aaeeaa)<br>
+Para deletar preciso de passar um objeto com esses dados <br>
+![image](https://github.com/user-attachments/assets/8f2efd74-b387-4df8-8ea6-40b6dd2da5c6) <br>
+
+ 
