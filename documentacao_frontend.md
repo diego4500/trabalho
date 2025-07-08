@@ -5,7 +5,7 @@
 ### Estrutura do Menu Lateral
 Abaixo segue a estrutura do menu lateral:
 
-```vue
+```js
 store.commit('system/addMenuItem', {
   order: '11',
   authentication: '',
