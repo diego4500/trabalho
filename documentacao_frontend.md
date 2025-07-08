@@ -30,4 +30,4 @@ Abaixo segue a explicação de algumas:
 * icon - ícone do item específico (usado pelo Quasar)
 
 Como podemos ver essa estrutura monta dinamicamente a navegação lateral, agrupando e ordenando os menus do sistema de acordo com a configuração que foi passada.
-https://miro.com/app/board/uXjVIg4kGKM=/
+
