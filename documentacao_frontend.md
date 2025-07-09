@@ -7,17 +7,16 @@
 Abaixo segue a estrutura do menu lateral:
 
 ```js
-store.commit('system/addMenuItem', {
-  order: '11',
-  authentication: '',
-  to: '/loja/tipos-locacao',
-  group: 'Loja',
-  subgroup: '',
-  label: 'Tipos de Locação',
-  sublabel: 'Categorias de aluguel',
-  groupIcon: 'store',
-  icon: 'category'
-})
+  store.commit('system/addMenuItem', {
+    order: '010',
+    group: 'Admin',
+    groupIcon: 'work',
+    subgroup: 'Admin',
+    label: 'Produtos',
+    to: '/treinamento-admin/produtos/view',
+    icon: 'inventory_2',
+    sublabel: 'Produtos'
+  })
 ```
 
 Abaixo segue a explicação de algumas:
