@@ -60,15 +60,5 @@ export default ({store}) => {
     sublabel: 'Produtos'
   })
 
-  store.commit('system/addMenuItem', {
-    order: '020',
-    group: 'Admin',
-    groupIcon: 'work',
-    subgroup: 'Admin',
-    label: 'Tipos de Locação',
-    to: '/treinamento-admin/tipo_locacao/view',
-    icon: 'category',
-    sublabel: 'Tipos de locação'
-  })
 ```
 
