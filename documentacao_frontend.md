@@ -107,3 +107,9 @@ export default {
 </script>
 
 ```
+### Fluxo do plugin e da criação da página
+<img width="1229" height="812" alt="image" src="https://github.com/user-attachments/assets/f64a021c-2936-4399-a16b-7ebbf7b9a498" />
+
+
+
+
