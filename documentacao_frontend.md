@@ -61,4 +61,49 @@ export default ({store}) => {
   })
 
 ```
+### Arquivo ProdutosView.vue
+```js
+<template> // Bloco principal do component Vue. Aqui fica o que vai aparecer na tela
+  <dl-view
+    v-model="data"
+    :config="config"
+    :columns="columns"
+    empty-message="Nenhum produto encontrado"> // É um componente pronto do DLApp que já traz funcionalidades como
+    // busca, filtros, exibição em tabela, etc
+    <template v-slot:title>Produtos</template>
+    <template v-slot:subtitle>Listagem de produtos cadastrados</template>
+    <template v-slot:card="{ row }"> // O componente dl-view consegui tratar esse objeto row e desencadear nos card, se
+      o objeto tiver 5 produtos, serão listados 5 produtos.
+      <div class="text-weight-bold">{{ row.data.nome }}</div>
+    </template>
+  </dl-view>
+</template>
 
+<script>
+export default {
+  name: 'ListarProdutos',
+  data () {
+    return {
+      columns: [
+        {
+          name: 'nome', // Configuração do campo que será listado.
+          required: true,
+          align: 'left', // Alinhado a esquerda.
+          field: row => row.data.nome, // Parte do objeto que será acessado
+          sortable: true
+        }
+      ],
+      data: {
+        rows: []
+      }, // O DLAPP vai preencher esse objeto automaticamente com o resultado da API
+      config: {
+        api: './treinamento-admin/produto/model' // Rota de listagem dos produtos vinda do backend
+        // form: '/form-url-se-existir'
+      }
+    }
+  }
+
+}
+</script>
+
+```
