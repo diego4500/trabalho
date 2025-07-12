@@ -106,3 +106,7 @@ Se a quantidade for menor que 1 o botão é desabilitado
 ```
 Ao clicar no botão que é filho aciona a ações da região do pai. Para que cause um stop nessa ação basta colocar no evento de click
 o @click.stop, com isso estamos dizendo que o botão mesmo sendo filho não será acionado a ação que foi determinada no pai.
+### Evento de click para subir um valor
+Abaixo segue o evento de um click onde faz o acréscimo de mais 1 na quantidade.
+<img width="625" height="391" alt="image" src="https://github.com/user-attachments/assets/041f9aee-9413-404b-8baa-42e53c21e424" />
+
