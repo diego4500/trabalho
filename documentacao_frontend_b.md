@@ -1,5 +1,6 @@
 ### Fluxo da listagem até a exibição e edição do produto
-<img width="929" height="931" alt="image" src="https://github.com/user-attachments/assets/eaac2e1e-594c-48b3-b5bf-b513ca20c41c" />
+<img width="1246" height="765" alt="image" src="https://github.com/user-attachments/assets/0c3e89b1-f0e6-4436-84f9-7f93feff5043" />
+
 
 ### Segue uma estrutura mínima de pasta do plugin
 <img width="211" height="145" alt="image" src="https://github.com/user-attachments/assets/94ea596d-4b0f-4d94-93b3-9ddd3c56c8ab" /> <br>
