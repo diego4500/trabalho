@@ -1,6 +1,13 @@
-### Fluxo do plugin e da criação da página
+### Fluxo da listagem até a exibição e edição do produto
 <img width="929" height="931" alt="image" src="https://github.com/user-attachments/assets/eaac2e1e-594c-48b3-b5bf-b513ca20c41c" />
 
+### Segue uma estrutura mínima de pasta do plugin
+<img width="211" height="145" alt="image" src="https://github.com/user-attachments/assets/94ea596d-4b0f-4d94-93b3-9ddd3c56c8ab" /> <br>
+
+### index.js - centro
+O arquivo index.js é responsável por construir as rotas no padrão system, importar o menu e as páginas vue. Nele também é configurado o grupo
+inserindo ícone, nome, label, rota e etc
+<img width="717" height="817" alt="image" src="https://github.com/user-attachments/assets/d5ca33c1-8f8a-472f-a817-63be7d87fb22" />
 
 
 
