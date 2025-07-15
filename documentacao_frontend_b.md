@@ -11,6 +11,7 @@ inserindo ícone, nome, label, rota e etc
 <img width="717" height="817" alt="image" src="https://github.com/user-attachments/assets/d5ca33c1-8f8a-472f-a817-63be7d87fb22" />
 
 ### ProdutoView.vue
-<img width="1075" height="921" alt="image" src="https://github.com/user-attachments/assets/2504ad26-12da-439d-ad35-8cc45c7da586" />
+<img width="1240" height="901" alt="image" src="https://github.com/user-attachments/assets/0a14d1b1-68c7-4368-bc24-1ad831ecc148" />
+
 
 
