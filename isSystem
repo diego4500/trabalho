@@ -1,2 +1,10 @@
 # Is System
-No Dlapp o objetivo do isSystem é definir quais cadastros serão padrão do sistema
+No Dlapp o isSystem é uma chave a mais no model para ser consultado onde o principal 
+objetivo é definir o que é do sistema e o que não é, podendo então ser criado lógicas com essa informação. 
+O isSystem pode ser true ou false. Exemplo:
+Na tela de cadastros de tipo de locação quero que seja isSystem true alguns períodos de locação como:
+diária, semanal e mensal. O que for isSytem true não pode ser excluído. Veja abaixo o passo a passo para 
+criar essa estrutura:
+
+1º Criar o model com o nome isSystem
+
