@@ -7,4 +7,5 @@ diária, semanal e mensal. O que for isSytem true não pode ser excluído. Veja 
 criar essa estrutura:
 
 1º Criar o model com o nome isSystem
+<img width="555" height="662" alt="image" src="https://github.com/user-attachments/assets/7f8d32bc-12ad-4985-a176-7b2ce6a7ba25" />
 
