@@ -1,3 +1,20 @@
+### Comandos git pra commitar e voltar 
+git add . - adiciona os arquivos 
+git commit -m "" - commit com o nome
+
+### Voltar o arquivo do commite
+Visualizar todos os commites                     commit git log --oneline
+Visualizar um arquivo específico do commit       git checkout nºCommit -- nomeArquivo.txt
+
+
+### Volta no diretório sem criar histórico
+Obs.: Não pode ter arquivos para commitar
+$ git checkout hashDoCommit
+
+Copiando os arquivos do commit
+mkdir "/c/Users/diego.rocha/Documents/copiaArquivos"
+cp -r * "/c/Users/diego.rocha/Documents/copiaArquivos"
+
 ### Shelf (prateleira)
 O Shelf é uma forma de salvar uma versão localmente sem commitar.
 Para criar um Shelf é necessário haver alguma edição, ao editar e modificar no menu lateral em commit ficam os arquivos disponíveis para commitar ou shelf. <br>
