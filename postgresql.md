@@ -5,5 +5,28 @@ O PostgreSQL não é um banco documental nativo, como o Mongo DB, mas ele pode a
 Como o PostgreSQL armazena dados documentais?
 Tipo JSON: armazena o conteúdo como texto, preservando exatamente o formato original. 
 
-## Comandos Básicos 
+## Query
+```sql
+SELECT * FROM public.document WHERE type = 'treinamento-admin/tipo-locacao';
+
+SELECT * FROM public.document WHERE type = '.treinamento-admin/tipo-ativacao-fo';
+
+SELECT * FROM document 
+WHERE type ILIKE '%treinamento-admin%'
+
+DELETE FROM public.document WHERE type = '.treinamento-admin/tipo-ativacao-fo';
+
+SELECT * FROM public.document WHERE type = 'treinamento-admin/produto';
+
+DELETE FROM "treinamento-admin/produto"
+WHERE data->>'nome' = 'Betoneira';
+
+DELETE FROM public.document WHERE type = 'treinamento-admin/produto';
+
+DELETE FROM public.document
+WHERE type = 'treinamento-admin/tipo-locacao';
+
+
+```
+
 
