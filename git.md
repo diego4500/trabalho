@@ -8,7 +8,10 @@ Clique com botão direito e clique em Shelve Changes<br>
 Inserir uma mensagem em Commit Message para identificação<br>
 <img width="769" height="936" alt="image" src="https://github.com/user-attachments/assets/5ef9cf51-efc0-46e9-b400-80caefddaa7b" /><br>
 Para restaurar basta clicar no menu "Commit" novamente, ir na aba "Shelf" e escolher o que deseja restaurar. <br>
-Em seguida clique com botão direito e clique em "Unchelve"
+Em seguida clique com botão direito e clique em "Unchelve". Em seguida clique em unchelf chance.<br>
+Após clicar aparece uma outra tela pendindo para puxar a os dados do lado right ou left.
+<img width="1140" height="676" alt="image" src="https://github.com/user-attachments/assets/45c12d86-07e1-48b9-8541-238fc99fcb2d" />
+
 
 
 
