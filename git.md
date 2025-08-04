@@ -5,9 +5,10 @@ Para criar um Shelf é necessário haver alguma edição, ao editar e modificar 
 Selecione os arquivos que deseja criar um shelf<br>
 <img width="720" height="504" alt="image" src="https://github.com/user-attachments/assets/c3aee757-4883-4c68-9c3b-439634261ca5" /><br>
 Clique com botão direito e clique em Shelve Changes<br>
-Inserir uma mensagem em Commit Message para identificação
-<img width="769" height="936" alt="image" src="https://github.com/user-attachments/assets/5ef9cf51-efc0-46e9-b400-80caefddaa7b" />
-
+Inserir uma mensagem em Commit Message para identificação<br>
+<img width="769" height="936" alt="image" src="https://github.com/user-attachments/assets/5ef9cf51-efc0-46e9-b400-80caefddaa7b" /><br>
+Para restaurar basta clicar no menu "Commit" novamente, ir na aba "Shelf" e escolher o que deseja restaurar. <br>
+Em seguida clique com botão direito e clique em "Unchelve"
 
 
 
