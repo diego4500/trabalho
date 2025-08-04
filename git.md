@@ -11,6 +11,8 @@ Para restaurar basta clicar no menu "Commit" novamente, ir na aba "Shelf" e esco
 Em seguida clique com botão direito e clique em "Unchelve". Em seguida clique em unchelf chance.<br>
 Após clicar aparece uma outra tela pendindo para puxar a os dados do lado right ou left.
 <img width="1140" height="676" alt="image" src="https://github.com/user-attachments/assets/45c12d86-07e1-48b9-8541-238fc99fcb2d" />
+<img width="1104" height="749" alt="image" src="https://github.com/user-attachments/assets/bdb227e5-baad-483f-8435-c175636ba5f6" />
+
 
 
 
