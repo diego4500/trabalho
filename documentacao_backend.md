@@ -95,6 +95,8 @@ pm.environment.set("updatedAt", json.updatedAt);
 
 ```
 <img width="939" height="317" alt="image" src="https://github.com/user-attachments/assets/e3fb416e-259a-45f0-8703-d854d1570349" />
+<img width="712" height="339" alt="image" src="https://github.com/user-attachments/assets/7f25e6c5-3cb3-4b10-bae0-f9c11729d859" />
+
 
 ## Mais informações do Model
 O model DLAPP serve para definir a estrutura dos dados, padronizar, validar e organizar como as informações serão tratadas no sistema. Ele garante que todos os campos têm tipo correto, 
