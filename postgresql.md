@@ -18,6 +18,9 @@ DELETE FROM public.document WHERE type = '.treinamento-admin/tipo-ativacao-fo';
 
 SELECT * FROM public.document WHERE type = 'treinamento-admin/produto';
 
+SELECT * FROM public.document WHERE id = '71254830-a28a-11ef-b828-dfa679d6ab5c';
+
+
 DELETE FROM "treinamento-admin/produto"
 WHERE data->>'nome' = 'Betoneira';
 
